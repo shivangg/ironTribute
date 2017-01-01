@@ -1,0 +1,62 @@
+@font-face {
+	font-family: iron-hollow-italics;
+	src: url("stark/Stark Hollow.otf") format("opentype");
+}
+
+@font-face {
+	font-family: iron-bolds;
+	src: url("stark/Stark.otf") format("opentype");
+}
+
+body {
+	background-color: #000;
+	color: #ff0;
+	color: rgba(249, 231, 32, 0.85);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 250%;
+}
+
+.header {
+	font-family: iron-hollow-italics;
+	margin-top: 2%;
+}
+
+.intro {
+    margin: -16% 5% 3% 5%;
+    padding: 0 20% 0 20%;
+}
+
+.iron-img {
+	margin-top: -12%;
+    position: relative;
+    z-index: -9999;
+}
+
+mark {
+    background-color: #000;
+    color: #ce0207;
+    color: rgba(206, 2, 7, 0.85);
+}
+
+.iron-theme {
+	font-family: iron-bolds;
+	font-size: 432%;
+	margin: -5%;
+}
+
+.subtitle {
+	font-size: 95%;
+    margin-right: -15%;
+}
+
+a:link, a:visited, a:hover, a:focus {
+	text-decoration: none;	
+}
+
+.abilities {
+	padding: 0 20% 0 20%;
+}
+
+.footer {
+	margin: 3% 5% 10% 5%;
+}
